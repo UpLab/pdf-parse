@@ -64,6 +64,7 @@ pdf(dataBuffer).then(function(data) {
 ```
 
 ## Extend
+* You can implement a `Custom Renderer` for your needs.
 * v1.0.9 and above break pagerender callback [changelog](https://gitlab.com/autokent/pdf-parse/blob/master/CHANGELOG)
 * If you need another format like json, you can change page render behaviour with a callback
 * Check out https://mozilla.github.io/pdf.js/
